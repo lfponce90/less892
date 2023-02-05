@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Build Docker
-    runs-on: self-hosted
+    runs-on: my-custom-runner
     steps:
     - name: Checkout
       uses: actions/checkout@v2
